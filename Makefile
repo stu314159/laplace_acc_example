@@ -15,4 +15,4 @@ $(TARGET): $(OBJECTS)
 	$(MPI_CC) $(MPI_FLAGS) -o $(EX_NAME) $^ $(LIBS)
 
 clean:
-	rm -f *.o $(TARGET) *~
+	rm -f *.o $(EX_NAME) *~
